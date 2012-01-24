@@ -13,6 +13,9 @@ au BufNewFile,BufRead Gemfile				set filetype=ruby
 " Rantfile
 au BufNewFile,BufRead [rR]antfile,*.rant		set filetype=ruby
 
+" Vagrant
+au BufNewFile,BufRead Vagrantfile	        	set filetype=ruby
+
 " Rackup
 au BufNewFile,BufRead *.ru				set filetype=ruby.rackup
 
